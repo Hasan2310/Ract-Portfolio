@@ -3,11 +3,9 @@
 .section:nth-child(odd) {
   background-color: #2d2d2d; 
   color: #e9e9ea;
-  height: 100vh;
 }
 
 .section:nth-child(even) {
   background-color: #4b4b4b;
   color: #e9e9ea;
-  height: 100vh;
 }

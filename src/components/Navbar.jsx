@@ -19,7 +19,7 @@ const Navbar = () => {
 
       {/* Fullscreen Menu */}
       <div
-        className={`fixed inset-0 bg-black flex flex-col items-center justify-center gap-6 transition-transform duration-300 ${
+        className={`fixed inset-0 bg-[#4b4b4b] flex flex-col items-center justify-center gap-6 transition-transform duration-300 ${
           isOpen ? "translate-x-0" : "translate-x-full"
         }`}
       >
@@ -30,10 +30,7 @@ const Navbar = () => {
           Home
         </a>
         <a href="#about" className="text-2xl hover:text-gray-400">
-          About
-        </a>
-        <a href="#portfolio" className="text-2xl hover:text-gray-400">
-          Portfolio
+          Portfolio Showcase
         </a>
         <a href="#contact" className="text-2xl hover:text-gray-400">
           Contact
